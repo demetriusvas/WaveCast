@@ -1,0 +1,8 @@
+/* Main column */
+.main {
+    flex: 85%;
+    background: var(--azul-gradiente);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}

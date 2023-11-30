@@ -1,0 +1,11 @@
+/* Footer */
+.footer {
+    padding: 20px;
+    background-color: var(--azul-escuro);
+    display: flex;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 10px;
+}

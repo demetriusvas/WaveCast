@@ -1,0 +1,24 @@
+:root {
+    --azul-void: #01080E;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-neon: #2BDEFD;
+    --play-hover: #2EBED7;
+    --cinza-cards: #c4c4c43b;
+    --cinza: #c4c4c4;
+    --branco: #FFFFFF;
+    --azul-gradiente: linear-gradient(60deg, rgba(7,32,65,1) 0%, rgba(4,24,51,1) 50%, rgba(21,69,128,1) 100%);
+
+    --familia-corpo: 'Open Sans', sans-serif;
+
+    --peso-titulo-destaque: 700;
+    --peso-destaque: 700;
+    --peso-titulo: 500;
+    --peso-texto: 400;
+    --peso-light: 300;
+
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 2rem;
+    --tamanho-destaque: 1.375rem;
+}
