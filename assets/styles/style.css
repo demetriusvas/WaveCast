@@ -1,0 +1,77 @@
+:root {
+    --azul-void: #01080E;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-neon: #2BDEFD;
+    --play-hover: #2EBED7;
+    --cinza-cards: #c4c4c43b;
+    --cinza: #c4c4c4;
+    --branco: #FFFFFF;
+    --azul-gradiente: linear-gradient(60deg, rgba(7,32,65,1) 0%, rgba(4,24,51,1) 50%, rgba(21,69,128,1) 100%);
+
+    --familia-corpo: 'Open Sans', sans-serif;
+
+    --peso-destaque: 700;
+    --peso-titulo: 500;
+    --peso-texto: 400;
+    --peso-light: 300;
+
+    /* -- H1 -- */
+    --tamanho-titulo-destaque: 1.75rem;
+    /* -- H2 -- */
+    --tamanho-titulo: 1.25rem;
+    /* -- Body -- */
+    --tamanho-corpo: 1rem;
+    /* -- Caption -- */
+    --tamanho-caption: .875rem;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+}
+
+.row{
+    background-color: var(--azul-escuro);
+}
+
+.aside{
+    background-color: lightblue;
+    padding: 2rem;
+    width: 228px;
+}
+
+.main{
+    background-color: lightsalmon;
+    padding: 2rem;
+    width: 100%;
+}
+
+/* ---------- FOOTER ---------- */
+
+.container_footer{
+    display: flex;
+    margin: 0 auto;
+    background-color: lightseagreen;
+}
+
+.footer{
+    color: var(--branco);
+    background-color: lightsteelblue;
+}
+
+
+/* ---------- RESPONSIVIDADE ----------- */
+@media all and (max-width: 480px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 1024px) and (max-width: 1366px) { }
+
+@media all and (min-width: 1366px) {
+    .container, .container_footer{
+        width: 1366px;
+    }
+}
