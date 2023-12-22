@@ -48,6 +48,10 @@
 }
 
 /* ---------- FOOTER ---------- */
+.footer{
+    color: var(--branco);
+    background-color: lightsteelblue;
+}
 
 .container_footer{
     display: flex;
@@ -55,10 +59,12 @@
     background-color: lightseagreen;
 }
 
-.footer{
-    color: var(--branco);
-    background-color: lightsteelblue;
+.footer_conteudo{
+    padding: 2rem;
+
 }
+
+
 
 
 /* ---------- RESPONSIVIDADE ----------- */
