@@ -45,6 +45,10 @@ body{
     width: 228px;
 }
 
+.aside_logo{
+    margin-bottom: 40px;
+}
+
 .aside_links{
     /* border: 1px solid red; */
     display: flex;
@@ -74,6 +78,43 @@ body{
     background: var(--azul-gradiente);
     padding: 2rem;
     width: 100%;
+}
+
+.main_setas{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.main_setas > img{
+    width: 24px;
+}
+
+.main_tocados_recente > p{
+    font-size: 1.75rem;
+    color: var(--branco);
+    font-weight: 700;
+}
+
+.main_tocados_recente_cards{
+    display: flex;
+    /* width: 400px; */
+    flex-wrap: wrap;
+}
+
+.main_tocados_recente_card{
+    background-color: var(--cinza-cards);
+    border-radius: 8px;
+    width: 348px;
+    /* gap: 20px; */
+}
+
+.main_tocados_recente_card-imagem{
+    width: 72px;
+}
+
+.main_tocados_recente_card-botao-play{
+    width: 48px;
 }
 
 /* ---------- FOOTER ---------- */
