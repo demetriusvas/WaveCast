@@ -7,7 +7,7 @@
     --cinza-cards: #c4c4c43b;
     --cinza: #c4c4c4;
     --branco: #FFFFFF;
-    --azul-gradiente: linear-gradient(60deg, rgba(7,32,65,1) 0%, rgba(4,24,51,1) 50%, rgba(21,69,128,1) 100%);
+    --azul-gradiente: linear-gradient(60deg, rgba(7,32,65,1) 0%, rgba(21,69,128,1) 100%);
 
     --familia-corpo: 'Open Sans', sans-serif;
 
@@ -71,7 +71,7 @@ body{
 }
 
 .main{
-    background-color: var(--azul-gradiente);
+    background: var(--azul-gradiente);
     padding: 2rem;
     width: 100%;
 }
