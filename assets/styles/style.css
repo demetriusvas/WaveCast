@@ -98,23 +98,42 @@ body{
 
 .main_tocados_recente_cards{
     display: flex;
-    /* width: 400px; */
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .main_tocados_recente_card{
     background-color: var(--cinza-cards);
     border-radius: 8px;
-    width: 348px;
-    /* gap: 20px; */
+    width: 340px;
+    display: flex;
 }
 
 .main_tocados_recente_card-imagem{
     width: 72px;
+    border-radius: 8px;
+}
+
+.main_tocados_recente_card-titulo-barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--branco);
+    width: 276px;
+    padding: 10px 10px 10px 16px;
+}
+
+.main_tocados_recente_card-titulo-barra > hr{
+    border: 2px solid var(--branco);
+    width: 98%;
+    border-radius: 10px;
 }
 
 .main_tocados_recente_card-botao-play{
     width: 48px;
+    padding-right: 16px;
+    /* margin: 0 auto; */
+    /* align-items: end; */
 }
 
 /* ---------- FOOTER ---------- */
