@@ -299,12 +299,37 @@ body{
 .container_footer{
     display: flex;
     margin: 0 auto;
-    background-color: lightseagreen;
+    background-color: var(--azul-escuro);
+    justify-content: space-between;
+    /* padding: 16px; */
 }
 
-.footer_conteudo{
-    padding: 2rem;
+.footer_capa-titulo{
+    display: flex;
+    padding: 16px;
+}
 
+.footer_capa-titulo > img{
+    width: 56px;
+    margin-right: 16px;
+    border-radius: 5px;
+}
+
+.footer_capa_titulo-e-podcast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer_capa_titulo-titulo{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.footer_capa_titulo-podcast{
+    font-size: 0.875rem;
+    font-weight: 400;
 }
 
 
