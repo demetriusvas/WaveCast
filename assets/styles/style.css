@@ -192,6 +192,58 @@ body{
 }
 
 
+/* ---------- MAIN - INDICADOS PARA VOCE ---------- */
+.main_secao_indicados-titulo{
+    font-size: 1.75rem;
+    color: var(--branco);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.main_secao_indicados-titulo-ver-mais{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.main_secao_indicados-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 24px;
+}
+
+.main_secao_indicados-card{
+    background-color: var(--cinza-cards);
+    border-radius: 8px;
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.main_secao_indicados-card-imagem{
+    border-radius: 8px;
+    margin-bottom: 8px;
+    width: 135px;
+}
+
+.main_secao_indicados-card-titulo{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 16px;
+    line-height: 1.25rem;
+}
+
+.main_secao_indicados-card-descricao{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--branco);
+}
+
+
 
 
 
