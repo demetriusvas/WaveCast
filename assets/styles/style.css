@@ -244,7 +244,50 @@ body{
 }
 
 
+/* ---------- MAIN - DEV SEM FRONTEIRAS ---------- */
+.main_secao_dev-sem-fronteiras-titulo{
+    font-size: 1.75rem;
+    color: var(--branco);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
 
+.main_secao_dev-sem-fronteiras-titulo-ver-mais{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.main_secao_dev-sem-fronteiras-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 24px;
+}
+
+.main_secao_dev-sem-fronteiras-card{
+    background-color: var(--cinza-cards);
+    border-radius: 8px;
+    width: 134px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.main_secao_dev-sem-fronteiras-card-imagem{
+    border-radius: 8px;
+    margin-bottom: 8px;
+    width: 135px;
+}
+
+.main_secao_dev-sem-fronteiras-card-titulo{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 16px;
+    line-height: 1.25rem;
+}
 
 
 /* ---------- FOOTER ---------- */
